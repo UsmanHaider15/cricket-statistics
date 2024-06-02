@@ -136,35 +136,35 @@ export const T20Is: League[] = [
 
 export const leaguesPlayersStats: Record<string, LeaguePlayersStatsArray> = {
   // @ts-ignore
-  psl: psl,
+  psl: psl.slice(0, 300),
   // @ts-ignore
-  ipl: ipl,
+  ipl: ipl.slice(0, 300),
   // @ts-ignore
-  bbl: bbl,
+  bbl: bbl.slice(0, 300),
   // @ts-ignore
-  lpl: lpl,
+  lpl: lpl.slice(0, 300),
   // @ts-ignore
-  cpl: cpl,
+  cpl: cpl.slice(0, 300),
   // @ts-ignore
-  ssm_female: ssm_female,
+  ssm_female: ssm_female.slice(0, 300),
   // @ts-ignore
-  ssm_male: ssm_male,
+  ssm_male: ssm_male.slice(0, 300),
   // @ts-ignore
-  hnd_female: ssm_female,
+  hnd_female: ssm_female.slice(0, 300),
   // @ts-ignore
-  hnd_male: hnd_male,
+  hnd_male: hnd_male.slice(0, 300),
   // @ts-ignore
-  wbb: wbb,
+  wbb: wbb.slice(0, 300),
   // @ts-ignore
-  msl: msl,
+  msl: msl.slice(0, 300),
   // @ts-ignore
-  ntb: ntb,
+  ntb: ntb.slice(0, 300),
   // @ts-ignore
-  bpl: bpl,
+  bpl: bpl.slice(0, 300),
   // @ts-ignore
-  t20is_female: t20is_female,
+  t20is_female: t20is_female.slice(0, 300),
   // @ts-ignore
-  t20is_male: t20is_male,
+  t20is_male: t20is_male.slice(0, 300),
 };
 
 interface PlayerInput {
