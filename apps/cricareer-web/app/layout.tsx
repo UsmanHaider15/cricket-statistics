@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";
 import { Libre_Franklin } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const libre_franklin = Libre_Franklin({
@@ -29,6 +30,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Analytics />
           <Footer />
         </div>
       </body>
