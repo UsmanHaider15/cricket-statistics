@@ -1,3 +1,17 @@
+# I created this project in just one day using AI.
+My goal was to convert cricket leagues data from cricsheet.org into a cricket statistics website. Starting with v0.dev, I prompted it to generate different pages for the website, resulting in a quick UI generation.
+
+Check out the pages:
+- Landing Page: https://lnkd.in/dDDnAxBd
+- Player List Page: https://lnkd.in/dWZ2RqAY
+- Player Stats Page: https://lnkd.in/dSewvTW2
+
+After obtaining the UI, I utilized Github Copilot and ChatGPT to convert ball-by-ball data from cricsheet.org into individual player stats. With scripts looping over JSON files, I transformed them into league player statistics files. Additionally, Google Gemini assisted in creating the website logo.
+
+Next, I used Next.js to generate static pages from the data. Next.js efficiently produced over 10,000 pages within minutes, resulting in a fully functional cricket statistics website for all T20 leagues and T20 international tournaments. The website operates without an API server, with all pages being statically generated, and search indexes retrieved from the build.
+
+Finally, the website is deployed on Vercel.
+
 # Cricket Statistics
 
 ## Deployment
